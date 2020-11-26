@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E4A5F2"
+    android:background="#CCF5F8"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".Registration">
@@ -19,6 +19,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:inputType="text"
             android:hint="First Name" />
 
         <EditText
@@ -26,6 +27,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:inputType="text"
             android:hint="Last Name" />
 
         <EditText
@@ -33,30 +35,16 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:hint="First Name" />
+            android:inputType="textEmailAddress"
+            android:hint="Email" />
 
         <EditText
             android:id="@+id/password_et"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:inputType="textPassword"
             android:hint="Password" />
-
-        <EditText
-            android:id="@+id/dob_et"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:hint="Date Of Birth" />
-
-        <EditText
-            android:id="@+id/companyName_et"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:hint="Company Name" />
-
-
     </LinearLayout>
 
     <Button
