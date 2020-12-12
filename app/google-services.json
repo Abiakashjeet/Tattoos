@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "236059682450",
+    "firebase_url": "https://tattoos-3ee36.firebaseio.com",
+    "project_id": "tattoos-3ee36",
+    "storage_bucket": "tattoos-3ee36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236059682450:android:41691739c3d0621f5ce84b",
+        "android_client_info": {
+          "package_name": "com.example.tattoos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236059682450-rdpv2q8ktlg4pp4kp77754pvff71d5ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNfPgvMBJd-ycghsZGpoR35xEwUukqJ9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236059682450-rdpv2q8ktlg4pp4kp77754pvff71d5ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
