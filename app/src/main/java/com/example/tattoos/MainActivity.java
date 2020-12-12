@@ -17,7 +17,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
    EditText Email, Password;
-   Button Login, Registration;
+   Button Login, Registration, Text_Result;
 
     FirebaseAuth fAuth;
 
@@ -35,8 +35,20 @@ public class MainActivity extends AppCompatActivity {
         Password = (EditText) findViewById(R.id.password);
         Login = (Button) findViewById(R.id.login);
         Registration = (Button) findViewById(R.id.registration);
+        Text_Result=(Button)findViewById(R.id.text_result);
+
+        Text_Result.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, Data.class);
+
+                startActivity(intent);
+            }
+        });
 
         fAuth = FirebaseAuth.getInstance();
+
+
 
         Registration.setOnClickListener(new View.OnClickListener(){
 
@@ -46,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -64,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
+
 
     }
 }
